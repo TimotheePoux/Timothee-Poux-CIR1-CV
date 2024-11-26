@@ -1,0 +1,44 @@
+@media screen and (max-width:769px) {
+    #contacts{
+        width:20%;
+    }
+
+    .liste{
+        font-size: 1.7em;
+    }
+
+    #écoles{
+        display: grid;
+        grid-template-areas: 'college' 'lycee' 'junia';
+    }
+
+    .école{
+        padding-top: 65px;
+    }
+
+    #description{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .section{
+        flex-direction: column;
+    }
+
+    .minisection{
+        width: 100%;
+    }
+
+    .liste{
+        width: 100%;
+    }
+
+    #leclerc{
+        height: 300px;
+    }
+
+    #contacts{
+        width:30%;
+    }
+}

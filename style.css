@@ -1,0 +1,172 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("Images/background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin:auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+
+a:hover{
+    color : red;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+main{
+    width: 100%;   
+}
+
+#retour{
+    position:fixed;
+    color: rgb(165, 42, 42);
+    font-size: 3em;
+    right:1%;
+    bottom:3%;
+    transition-duration: 100ms;
+}
+
+#retour:hover{
+    color:rgb(216, 128, 128);
+    transform:scale(1.2);
+}
+
+#accueil{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+.section{
+    display:flex;
+    width: 100%;
+}
+
+.minisection{
+    width: 50%;
+    height: 500px;
+}
+
+.liste{
+    background-color:cornsilk;
+    font-size: 2em;
+    width: 50%;
+    height: 500px;
+    &>h2{
+        margin-left: 2%;
+    }
+    &>div{
+        margin-left: 2%;
+        margin-right: 2%;
+        display: flex;
+        justify-content:space-between;
+    }
+    &>p{
+        margin-left: 2%;
+    }
+}
+
+#écoles{
+    background-color:aliceblue;
+    display: grid;
+    grid-template-areas: 'college lycee junia';
+    text-align: center;
+}
+
+#college{
+    background-image: url(Images/college.png);
+}
+
+#lycee{
+    background-image: url(Images/lycee.png);
+}
+
+#junia{
+    background-image: url(Images/junia.png);
+}
+
+.école{
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    padding-top: 240px;
+    font-size: 2em;
+    color: black;
+    font-family: "Jaro", sans-serif;
+}
+
+#leclerc{
+    background-color:aliceblue;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+#imageleclerc{
+    width: 100%
+}
+
+#description{  
+    background-color:aliceblue;
+}
+
+#compétences{
+    background-color: cornsilk;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: black;
+    width: 100%;   
+    color: white;
+    &>p{
+        margin-left: 10px;
+    }
+}
+
+#slogan{
+    color:rgb(60, 51, 33);
+}
+
+#contacts{
+    width:10%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+#photo{
+    border: 7px solid rgb(205, 158, 95);
+    border-radius: 40%;
+    width: 150px;
+    transition-duration : 3600s;
+}
+
+#photo:hover{
+    transform: scale(999);
+}
